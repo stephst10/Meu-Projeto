@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(187, 248, 228);
+    color: rgb(42, 14, 66);
+    justify-items: center;
+}
+
+h1 {
+    font-style: italic;
+}

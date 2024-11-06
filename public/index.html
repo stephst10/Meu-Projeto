@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Frases</title>
+</head>
+<body>
+    <h1>Frases Inspiradoras</h1>
+
+    <div id="frase-container">
+        <p id="frase">Clique no botão para ver uma frase!</p>
+        <p id="access-count"></p>
+    </div>
+
+    <button onclick="getFrase()">Obter Frase Aleatória</button>
+
+    <h2>Adicionar Nova Frase</h2>
+    <input type="text" id="novaFraseInput" placeholder="Digite uma nova frase">
+    <button onclick="addFrase()">Adicionar Frase</button>
+
+    <h2>Todas as Frases</h2>
+    <button onclick="getAllFrases">Ver todas as frases</button>
+    <ul id="frases-list"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
