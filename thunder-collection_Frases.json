@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Frases",
+    "collectionId": "a5cc83d2-efe4-4e4a-9f07-0aca111d74ed",
+    "dateExported": "2024-11-06T13:28:08.288Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "87e142a9-29e2-44c6-a633-8e0acfc3ae5c",
+            "colId": "a5cc83d2-efe4-4e4a-9f07-0aca111d74ed",
+            "containerId": "",
+            "name": "http://localhost:3000/frases",
+            "url": "http://localhost:3000/frases",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-06T13:26:26.405Z",
+            "modified": "2024-11-06T13:26:26.405Z",
+            "headers": []
+        },
+        {
+            "_id": "c8c767f5-b0df-4efe-970f-c549542c6878",
+            "colId": "a5cc83d2-efe4-4e4a-9f07-0aca111d74ed",
+            "containerId": "",
+            "name": "http://localhost:3000/todas",
+            "url": "http://localhost:3000/todas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-11-06T13:26:35.181Z",
+            "modified": "2024-11-06T13:26:35.181Z",
+            "headers": []
+        },
+        {
+            "_id": "f4129635-db95-4033-aad5-38b50267d4cb",
+            "colId": "a5cc83d2-efe4-4e4a-9f07-0aca111d74ed",
+            "containerId": "",
+            "name": "http://localhost:3000/delete/0",
+            "url": "http://localhost:3000/delete/0",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-11-06T13:26:43.389Z",
+            "modified": "2024-11-06T13:26:43.389Z",
+            "headers": []
+        },
+        {
+            "_id": "cbe08b2f-95af-4b3f-8a36-bed08251351a",
+            "colId": "a5cc83d2-efe4-4e4a-9f07-0aca111d74ed",
+            "containerId": "",
+            "name": "http://localhost:3000/add",
+            "url": "http://localhost:3000/add",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-11-06T13:26:54.413Z",
+            "modified": "2024-11-06T13:26:54.413Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"novaFrase\":\"Olá\"\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8d8f761b-41f3-4280-a7f2-cfb9c2aa5788",
+            "colId": "a5cc83d2-efe4-4e4a-9f07-0aca111d74ed",
+            "containerId": "",
+            "name": "http://localhost:3000/update/0",
+            "url": "http://localhost:3000/update/0",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-11-06T13:27:05.525Z",
+            "modified": "2024-11-06T13:27:05.525Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \"novaFrase\": \"Perfeito!\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "KdZKouXXRBiMn9rE3YAdc8bIXEOhVf0IaVGMcMQjyu5YiMJIeM30-EXUqhxiHVbCUbn2MOUcUtlRCh6vNDPcSA"
+}
